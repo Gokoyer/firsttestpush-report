@@ -3,5 +3,4 @@
 xh = input("ENter Hours: ")
 xr = input("ENter Rate: ")
 xp = float(xh) * float(xr)
-#output will be Pay: product of xh and xr
 print("Pay:",xp)

@@ -11,10 +11,10 @@
 #numbers properly. Do not name your variable sum or use the sum() function.
 
 #def computepay(h, r):
-#    if h <= 40:
-#        return h * r
-#    elif h > 40:
-#        return (((h-40) * r * 1.5) + 40 * r)
+#if h <= 40:
+#return h * r
+#elif h > 40:
+#return (((h-40) * r * 1.5) + 40 * r)
 #h = input("Enter Hours:")
 #r = input("Enter rates:")
 #hrs = float(h)
