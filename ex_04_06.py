@@ -10,33 +10,33 @@
 #checking the user input unless you want to - you can assume the user types
 #numbers properly. Do not name your variable sum or use the sum() function.
 
-def computepay(h, r):
-    if h <= 40:
-        return h * r
-    elif h > 40:
-        return (((h-40) * r * 1.5) + 40 * r)
-h = input("Enter Hours:")
-r = input("Enter rates:")
-hrs = float(h)
-rate = float(r)
-p = computepay(hrs, rate)
-print("Pay", p)
+#def computepay(h, r):
+#    if h <= 40:
+#        return h * r
+#    elif h > 40:
+#        return (((h-40) * r * 1.5) + 40 * r)
+#h = input("Enter Hours:")
+#r = input("Enter rates:")
+#hrs = float(h)
+#rate = float(r)
+#p = computepay(hrs, rate)
+#print("Pay", p)
 
-..............................................
-def computepay(h,r):
-if h > 40:
-pay = 40*r + (h — 40)*(r*1.5)
-else:
-pay = r*h
-p = float(pay)
-return p
-hrs = raw_input(“Enter Hours:”)
-h = float(hrs)
-rate = raw_input(“Enter Rate:”)
-r = float (rate)
-m = computepay(h,r)
-print(‘Pay’,m)
-..................................
+#..............................................
+#def computepay(h,r):
+#if h > 40:
+#pay = 40*r + (h — 40)*(r*1.5)
+#else:
+#pay = r*h
+#p = float(pay)
+#return p
+#hrs = raw_input(“Enter Hours:”)
+#h = float(hrs)
+#rate = raw_input(“Enter Rate:”)
+#r = float (rate)
+#m = computepay(h,r)
+#print(‘Pay’,m)
+#..................................
 def computepay(h,r):
 if h > 40:
 p = 1.5 * r * (h - 40) + (40 *r)
